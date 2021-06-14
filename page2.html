@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: '휴먼매직체';
+	font-size: 14px;
+	color: #444444;
+	background-color: #fff0f9;	
+}
+li{
+	list-style-type: none;
+}
+header{
+	width: 1140px;
+	height: 100px;
+	margin: 0 auto;
+	border: solid 0px red;
+}
+.clear{
+	clear: both;
+}
+#logo{
+	float: left;
+	margin: 40px 0 0 10px;
+	border: solid 0px red;
+	font-size: 25px;
+	color: #f8d6f3;
+	text-shadow: 5px 5px 10px gray;
+}
+#logo a{
+	text-decoration: none;
+}
+#menus{
+	float: right;
+	border: solid 0px red;
+}
+#top_menu{
+	text-align: right;
+	margin-top: 20px;
+	border: solid 0px red; 
+	font-size: 16px;
+}
+#main_menu{
+	margin-top: 20px;
+	font-family: '휴먼매직체';
+	font-size: 24px;
+	color: black;
+	border: solid 0px red;
+}
+#main_menu li{
+	display: inline;
+	margin-left: 70px;
+}
+#main_img{
+	width: 100%;
+	height: 281px;
+	background-image: url('img/food.jpg');
+    background-repeat: no-repeat;
+	background-position: top center;
+	margin-top: 20px;
+}
+#contents{
+	width: 1140px;
+	margin: 0 auto;
+}
+#sub_menu{
+	width: 234px;
+	float: left;
+	margin-top: 25px;
+	border: solid 0px red;
+}
+#sub_menu a {
+	text-decoration: none;
+}
+#sub_menu h3{
+	font-size: 22px;
+	color: black;
+	padding: 12px;
+	background-color: #ffbee9;
+}
+#sub_menu li{
+	padding: 10px;
+	border-bottom: dotted 1px #cccccc;
+    font-size: 18px;
+}
+#main_contents{
+	width: 880px;
+	float: right;
+	margin-top: 25px;
+	border: solid 0px black;
+}
+#main_comtents h3{
+	font-size: 22px;
+	padding-bottom: 8px;
+	border: dotted 0px #cccccc;
+}
+#main_contents p{
+	margin-top: 30px;
+	line-height: 180%
+}
+footer{
+	width: 100%;
+	height: 150px;
+    margin-top: 50px;
+    background-color: #ffe4e4;
+}
+#footer_box{
+	width: 1140px;
+	height: 150px;
+	margin: 0 auto;
+	border: solid 0px green;
+}
+#footer_logo{
+	float: left;
+	margin: 50px 0 0 30px;
+	border: solid 0px red;
+	font-size: 28px;
+
+	
+}
+#address{
+	float: right;
+	margin: 50px 30px 0 0;
+	color: black;
+	border: solid 0px red;
+}
+td h3{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+}
+td{
+	font-size: 22px;
+	line-height: 1.5em; 
+}
+td img{
+	margin: 20px;
+	border: solid 1px black;
+
+}
+span{
+	color: #f921a3;
+}
+
+</style>
+</head>
+<body>
+<header>
+	<div id="logo">
+		<h1><a href="index.html">일식 소개</a></h1>
+	</div>
+	<nav id="menus">
+		<div id="top_menu">
+			<a href="login.html">로그인</a> | 회원가입 
+		</div>
+		
+	</nav>
+</header>
+<section id="main_img">
+</section>	
+<section id="contents">
+	<nav id="sub_menu">
+		<h3>목차</h3>
+		<ul>
+			<li><a href="page1.html">음식소개</a></li>
+			<li><a href="page2.html">음식의 유래</a></li>
+			<li><a href="page3.html">조리법</a></li>
+			<li><a href="page4.html">맛집</a></li>
+		</ul>
+	</nav>
+	<div id="main_contents">
+		<table>
+			<tr>
+				<td><img src="img/taco2.jpg"></td><td><img src="img/sushi2.jpg"></td>
+			</tr>
+			
+			
+		    <tr>
+				<td><img src="img/yaki2.jpg"></td><td><img src="img/rice2.jpg"></td>
+			</tr>							
+		</table>
+	</div>
+</section>
+<div class='clear'></div> <!-- float 속성 해제 -->
+<footer>
+	<div id="footer_box">
+		<div id="footer_logo">
+			<h2>Japanese Food</h2>
+		</div>
+		<ul id="address">
+			<li>경기도 부천시 1234 우:123-1234</li>
+			<li>TEL:031-123-1234 Email : dlstjqdl11@naver.com</li>
+		</ul>
+	</div>
+</footer>
+</body>
+</html>
